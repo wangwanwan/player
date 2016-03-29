@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #675C48;
+	font-family: "微软雅黑", Arial, sans-serif;
+}
+.title{
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	background-color: #675C48;
+	margin: 20px 0;
+	padding: 5px 10px;
+
+}
+.wrap{
+	width: 300px;
+	margin: 0 auto;
+}
+.player{
+	position: relative;
+}
+#player{
+	background-color: #1b1b1b;
+}
+#controller {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+.fa{
+	font-size: 14px;
+	line-height: 30px;
+	color: #999;
+}
+.fa-play,.fa-stop{
+	margin-left: 5px;
+}
