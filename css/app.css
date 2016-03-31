@@ -36,6 +36,10 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 2;
 }
+.pause{
+	width: 15%;
+	float: left;
+}
 .fa{
 	font-size: 14px;
 	line-height: 30px;
@@ -46,4 +50,49 @@ body{
 }
 .fa-play,.fa-stop,.fa-pause{
 	margin-left: 5px;
+}
+.progress{
+	width: 40%;
+	float: left;
+}
+.outBar{
+	margin: 12px 10px 12px 5px;
+	height: 6px;
+	background-color: #999;
+	border-radius: 5px;
+
+}
+.innerBar{
+	height: 6px;
+	background-color: #2187e7;
+	width: 0%;
+	border-radius: 5px;
+
+}
+#timer{
+	color: #999;
+	line-height: 30px;
+	font-size: 12px;
+	margin-right: 10px;
+}
+#timer,#volume{
+	float: left;
+}
+.playTime{
+	float: left;
+	width: 35%;
+
+}
+#outVolume{
+	width: 50%;
+	margin: 12px 0 12px 3px;
+	float: left;
+}
+#innerVolume{
+	width: 100%;
+	
+}
+.fullScreen{
+	float: right;
+	margin-right: 10px;
 }
