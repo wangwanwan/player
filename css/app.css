@@ -41,6 +41,9 @@ body{
 	line-height: 30px;
 	color: #999;
 }
-.fa-play,.fa-stop{
+.fa:hover{
+	cursor: pointer;
+}
+.fa-play,.fa-stop,.fa-pause{
 	margin-left: 5px;
 }
