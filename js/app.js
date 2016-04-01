@@ -12,18 +12,7 @@
 
 
 
-	/*document.onclick = function(event){
-		var target = event.target;
-		if (player.paused) {
-            	player.play(); //播放
-            	target.setAttribute("class", "fa fa-pause");
-
-        	} else {
-           	 player.pause(); //暂停
-            	target.setAttribute("class", "fa fa-play");
-        	}
-	}*/
-
+	
 	play.onclick = function () {
 		if (player.paused) {
       player.play(); //播放
@@ -36,7 +25,7 @@
 	}
         
   stop.onclick = function () {
-    player.currentTime = 0; //停止播放
+    player.currentTime = 0;
       document.getElementById("innerProgress").style.width = 0;
   }
 
@@ -102,15 +91,7 @@
 
     }
 
-    // $volumeControl
-    // .on('click', function(e) {
-    //   var w = $(this).width(),
-    //     x = e.offsetX;
-    //   window.vol = (x / w).toFixed(1);
-
-    //   player.volume = window.vol;
-    //   $volumeInner.css('width', x + 'px');
-    // });
+   
 
     outVolume.onclick = function (event) {
       var width = event.target.offsetWidth;
