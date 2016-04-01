@@ -13,10 +13,10 @@
   play.onclick = function () {
     if (player.paused) {
       player.play(); //play
-      play.setAttribute("class", "fa fa-pause");
+      play.className = "fa fa-pause";
     } else {
       player.pause(); //pause
-      play.setAttribute("class", "fa fa-play");
+      play.className = "fa fa-play";
 
       }
   }
@@ -25,17 +25,17 @@
     player.currentTime = 0;
     innerProgress.style.width = 0;
     player.pause();
-    play.setAttribute("class", "fa fa-play");
+    play.className = "fa fa-play"
   }
 
   volume.onclick = function () {
     if (player.muted) {
         player.muted = false;
-        volume.setAttribute("class","fa fa-volume-up");
+        volume.className = "fa fa-volume-up";
         innerVolume.style.width = 100+"%";
     } else {
       player.muted = true;
-      volume.setAttribute("class","fa fa-volume-off");
+      volume.className = "fa fa-volume-off";
       innerVolume.style.width = 0;
 
       }
@@ -66,7 +66,7 @@
     // alert(width*per);
 
     if (player.ended) { 
-      play.setAttribute("class", "fa fa-play");     
+      play.className = "fa fa-play";
     }
 
 });

@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
-	<title>video</title>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+  <title>video</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script defer="defer" src="js/app.js"></script>
 </head>
 <body>
-	<div class="wrap">
-		<div class="player">
-			<h3 class="title">bunnytrailer</h3>
-			<video id="player" width="300" height="280">
-				<source src="video/bunny.ogg">你的浏览器不支持视频播放
-			</video>
-			<div id="controller">
-				<div class="pause">
-				<span id="play" class="fa fa-play"></span>
-				<span id="stop" class="fa fa-stop"></span>
-			</div>
-			<div class="progress">					
-				<div id="outProgress" class="outBar">
-					<div id="innerProgress" class="innerBar"></div>
-				</div>
-			</div>
-			<div class="playTime">
-				<span id ="timer">0:00</span>
-				<span id="volume" class="fa fa-volume-up"></span>
-				<div id="outVolume" class="outBar">
-					<div id="innerVolume" class="innerBar"></div>
-				</div>
-			</div>
-			<div class="fullScreen">
-				<span class="fa fa-expand"></span>
-			</div>
-		</div>		
-	</div>
-	<script src="js/app.js"></script>
+  <div class="wrap">
+    <div class="player">
+      <h3 class="title">bunnytrailer</h3>
+      <video id="player" width="300" height="280">
+        <source src="video/bunny.ogg">你的浏览器不支持视频播放
+      </video>
+      <div id="controller">
+        <div class="pause">
+          <span id="play" class="fa fa-play"></span>
+          <span id="stop" class="fa fa-stop"></span>
+        </div>
+        <div class="progress">					
+          <div id="outProgress" class="outBar">
+            <div id="innerProgress" class="innerBar"></div>
+          </div>
+        </div>
+        <div class="playTime">
+          <span id ="timer">0:00</span>
+          <span id="volume" class="fa fa-volume-up"></span>
+          <div id="outVolume" class="outBar">
+            <div id="innerVolume" class="innerBar"></div>
+          </div>
+        </div>
+        <div class="fullScreen">
+          <span class="fa fa-expand"></span>
+        </div>
+      </div>
+    </div>	
+  </div> 
 </body>
 </html>
