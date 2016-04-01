@@ -15,10 +15,10 @@
 	
 	play.onclick = function () {
 		if (player.paused) {
-      player.play(); //播放
+      player.play(); //play
       play.setAttribute("class", "fa fa-pause");
     } else {
-      player.pause(); //暂停
+      player.pause(); //pause
       play.setAttribute("class", "fa fa-play");
 
       }
