@@ -19,7 +19,7 @@
       play.setAttribute("class", "fa fa-play");
 
       }
-	}
+  }
         
   stop.onclick = function () {
     player.currentTime = 0;
