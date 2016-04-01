@@ -1,7 +1,7 @@
 (function(){
-	var player = document.getElementById("player");
-	var play = document.getElementById("play");
-	var stop = document.getElementById("stop");
+  var player = document.getElementById("player");
+  var play = document.getElementById("play");
+  var stop = document.getElementById("stop");
   var volume = document.getElementById("volume");
   var innerVolume = document.getElementById("innerVolume");
   var timer = document.getElementById("timer");
