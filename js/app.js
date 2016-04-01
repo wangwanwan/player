@@ -10,8 +10,8 @@
   var outVolume = document.getElementById("outVolume");
   var innerVolume = document.getElementById("innerVolume");
 
-	play.onclick = function () {
-		if (player.paused) {
+  play.onclick = function () {
+    if (player.paused) {
       player.play(); //play
       play.setAttribute("class", "fa fa-pause");
     } else {

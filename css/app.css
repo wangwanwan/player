@@ -1,98 +1,98 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-	background-color: #675C48;
-	font-family: "微软雅黑", Arial, sans-serif;
+body {
+  background-color: #675C48;
+  font-family: "微软雅黑", Arial, sans-serif;
 }
-.title{
-	height: 35px;
-	line-height: 35px;
-	font-weight: bold;
-	font-size: 20px;
-	color: #fff;
-	background-color: #675C48;
-	margin: 20px 0;
-	padding: 5px 10px;
+.title {
+  height: 35px;
+  line-height: 35px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  background-color: #675C48;
+  margin: 20px 0;
+  padding: 5px 10px;
 
 }
-.wrap{
-	width: 300px;
-	margin: 0 auto;
+.wrap {
+  width: 300px;
+  margin: 0 auto;
 }
-.player{
-	position: relative;
+.player {
+  position: relative;
 }
-#player{
-	background-color: #1b1b1b;
+#player {
+  background-color: #1b1b1b;
 }
 #controller {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 30px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
 }
-.pause{
-	width: 15%;
-	float: left;
+.pause {
+  width: 15%;
+  float: left;
 }
-.fa{
-	font-size: 14px;
-	line-height: 30px;
-	color: #999;
+.fa {
+  font-size: 14px;
+  line-height: 30px;
+  color: #999;
 }
-.fa:hover{
-	cursor: pointer;
+.fa:hover {
+  cursor: pointer;
 }
 .fa-play,.fa-stop,.fa-pause{
-	margin-left: 5px;
+  margin-left: 5px;
 }
-.progress{
-	width: 40%;
-	float: left;
+.progress {
+  width: 40%;
+  float: left;
 }
-.outBar{
-	margin: 12px 10px 12px 5px;
-	height: 6px;
-	background-color: #999;
-	border-radius: 5px;
+.outBar {
+  margin: 12px 10px 12px 5px;
+  height: 6px;
+  background-color: #999;
+  border-radius: 5px;
 
 }
-.innerBar{
-	height: 6px;
-	background-color: #2187e7;
-	width: 0%;
-	border-radius: 5px;
+.innerBar {
+  height: 6px;
+  background-color: #2187e7;
+  width: 0%;
+  border-radius: 5px;
 
 }
-#timer{
-	color: #999;
-	line-height: 30px;
-	font-size: 12px;
-	margin-right: 10px;
+#timer {
+  color: #999;
+  line-height: 30px;
+  font-size: 12px;
+  margin-right: 10px;
 }
-#timer,#volume{
-	float: left;
+#timer,#volume {
+  float: left;
 }
-.playTime{
-	float: left;
-	width: 35%;
+.playTime {
+  float: left;
+  width: 35%;
 
 }
-#outVolume{
-	width: 50%;
-	margin: 12px 0 12px 3px;
-	float: left;
+#outVolume {
+  width: 50%;
+  margin: 12px 0 12px 3px;
+  float: left;
 }
-#innerVolume{
-	width: 100%;
+#innerVolume {
+  width: 100%;
 	
 }
-.fullScreen{
-	float: right;
-	margin-right: 10px;
+.fullScreen {
+  float: right;
+  margin-right: 10px;
 }
