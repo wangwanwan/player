@@ -86,7 +86,7 @@
     player.currentTime = (duration * per).toFixed(0);
     innerProgress.style.width = widthX + 'px';
 
-      // alert(width);
+      
 
 
     }
